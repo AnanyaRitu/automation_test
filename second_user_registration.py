@@ -21,12 +21,12 @@ class Second_user_registration(unittest.TestCase):
         time.sleep(10)
 
         driver.find_element(
-            By.XPATH, '//*[@id="email_create"]').send_keys("ananya.ritu1@bracu.ac.bd")
+            By.XPATH, '//*[@id="email_create"]').send_keys("ananya.ritu3@bracu.ac.bd")
         driver.find_element(By.ID, "SubmitCreate").click()
         time.sleep(10)
 
         driver.find_element(
-            By.XPATH, '//*[@id="customer_firstname"]').send_keys("ana")
+            By.XPATH, '//*[@id="customer_firstname"]').send_keys("ann")
 
         driver.find_element(
             By.XPATH, '//*[@id="customer_lastname"]').send_keys("ritu")
@@ -49,7 +49,7 @@ class Second_user_registration(unittest.TestCase):
             By.XPATH, '//*[@id="postcode"]').send_keys("64030")
 
         driver.find_element(
-            By.XPATH, '//*[@id="phone_mobile"]').send_keys("01859586216")
+            By.XPATH, '//*[@id="phone_mobile"]').send_keys("01859586214")
 
         time.sleep(10)
 
